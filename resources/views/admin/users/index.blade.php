@@ -17,23 +17,23 @@
 
     <br/>
     <div class="well">
-        {!! Form::open(['url' => 'admin/users/search', 'method' => 'POST', 'class' => 'mt-2',  'role'=>'search']) !!}
+        {!! Form::open(['url' => 'admin/users/search', 'method' => 'GET', 'class' => 'mt-2',  'role'=>'search']) !!}
 
 
         <div class="row">
             <div class="col col-lg-1">
                 {{ Form::label('id', 'ID') }}
-                {{ Form::number('id',  \Input::post('id'), array('class' => 'form-control', 'placeholder' => 'ID')) }}
+                {{ Form::number('id',  \Input::get('id'), array('class' => 'form-control', 'placeholder' => 'ID')) }}
             </div>
             <div class="col col-lg-2">
                 {{ Form::label('name', 'Name') }}
-                {{ Form::text('name',  \Input::post('name'), array('class' => 'form-control', 'placeholder' => 'Name')) }}
+                {{ Form::text('name',  \Input::get('name'), array('class' => 'form-control', 'placeholder' => 'Name')) }}
 
             </div>
 
             <div class="col col-lg-2">
                 {{ Form::label('email', 'Email') }}
-                {{ Form::text('email',  \Input::post('email'), array('class' => 'form-control', 'placeholder' => 'Email')) }}
+                {{ Form::text('email',  \Input::get('email'), array('class' => 'form-control', 'placeholder' => 'Email')) }}
             </div>
 
 
