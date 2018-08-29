@@ -60,6 +60,11 @@ Run migrations:
 php artisan migrate
 ```
 
+Seed the database:
+```sh
+php artisan db:seed
+```
+
 Set up Laravel Passport for api authentication:
 ```sh
 php artisan passport:install
