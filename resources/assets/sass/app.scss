@@ -1,0 +1,27 @@
+@import '../../themes/default/assets/sass/_theme.scss';
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+// Variables
+@import 'variables';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+img.company-logo {
+  max-width: 420px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.centered-form {
+  max-width: 480px;
+  display: block;
+  margin: 0 auto;
+}
