@@ -53,7 +53,8 @@ php artisan storage:link
 
 ## Database
 Configure a database:
-Open the ```.env``` file in the root of the project and configure a database connection
+Open the ```.env``` file in the root of the project and configure a database connection.
+If the ```.env``` file does not exist then clone the ```.env.example``` file and rename it to ```.env```.
 
 Run migrations:
 ```sh
