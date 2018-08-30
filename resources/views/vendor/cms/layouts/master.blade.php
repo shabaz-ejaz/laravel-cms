@@ -17,10 +17,10 @@
         <link rel="stylesheet" type="text/css" href="{!! Cms::asset('themes/'.config('cms.backend-theme', 'standard').'.css', 'text/css') !!}">
 
         <!-- App style -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="{!! Cms::asset('dist/css/vendor.css', 'text/css') !!}">
         <link rel="stylesheet" type="text/css" href="{!! Cms::asset('dist/css/cms.css', 'text/css') !!}">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/backend/backend.css') }}">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -55,10 +55,10 @@
         </script>
         <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
         <script src="{!! Cms::asset('dist/js/vendor.js', 'application/javascript') !!}"></script>
         <script src="{!! Cms::asset('dist/js/cms.js', 'application/javascript') !!}"></script>
         <script src="https://cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
         <script type="text/javascript" src="{!! asset('js/app.js') !!}"></script>
         @include('cms::notifications')
         @yield("javascript")

@@ -2,3 +2,15 @@
   height: 100%;
 }
 
+.user-index .select2-selection__arrow {
+  height: 31px;
+}
+
+.user-index .select2-selection__rendered {
+  line-height: 34px;
+}
+
+.user-index .select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: 36px;
+}
+

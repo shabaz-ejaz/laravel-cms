@@ -38,7 +38,20 @@
 
 
             <div class="col col-lg-2">
+
                 <div class="form-group">
+                    <label class="control-label" for="company">Company</label>
+                    <select class="select2 form-control user-index" name="company">
+
+                        @foreach($companies as $name => $id)
+                            <option disabled selected value> -- select an option -- </option>
+                            <option {{\Input::post('company') == $id ? 'selected' : '' }} value="{{ $id }}">{{ $name }}</option>
+                        @endforeach
+                    </select>
+                </div>
+
+
+                {{--<div class="form-group">
                     <label for="company">Company</label>
                     <select name="company" class="form-control" id="company">
                         <option disabled selected value> -- select an option -- </option>
@@ -46,7 +59,7 @@
                             <option {{\Input::post('company') == $id ? 'selected' : '' }} value="{{ $id }}">{{ $name }}</option>
                         @endforeach
                     </select>
-                </div>
+                </div>--}}
             </div>
 
             <div class="col col-lg-2">
