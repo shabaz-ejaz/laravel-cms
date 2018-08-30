@@ -109,7 +109,7 @@ php artisan crudmaker:new ModelName
 {--schema} # specify the schema data i.e. db columns
 {--relationships} # generate relationships
 ```
-You can view the full documentation for this [here](https://laracogs.com/docs/services/crud/)  
+You can view the full documentation for this [here](https://docs.grafite.ca/others/crud/)  
 
 
 ## Using GraphQL

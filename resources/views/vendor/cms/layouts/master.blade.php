@@ -7,9 +7,7 @@
 
         <title>{{ config('cms.backend-title') }}: {{ ucfirst(request()->segment(2)) }}</title>
 
-        <link rel="icon" type="image/ico" href="{!! Cms::asset('images/favicon.ico', 'image/ico') !!}?v3">
-        <link rel="icon" type="image/png" sizes="32x32" href="{!! Cms::asset('images/favicon-32.png', 'image/png') !!}?v3">
-        <link rel="icon" type="image/png" sizes="96x96" href="{!! Cms::asset('images/favicon-96.png', 'image/png') !!}?v3">
+        <link rel="icon" type="image/ico" href="{!! asset('favicon.ico') !!}?v3">
 
         <!-- Bootstrap and Font-Awesome -->
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
