@@ -58,14 +58,10 @@ return [
     'load-modules' => true,
     'module-directory' => 'cms/modules',
     'active-core-modules' => [
-        'blog',
         'menus',
         'files',
         'images',
         'pages',
-        'widgets',
-        'events',
-        'faqs',
     ],
 
     /*

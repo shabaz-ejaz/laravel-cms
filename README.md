@@ -88,7 +88,7 @@ This will open up a Laravel development server at localhost:8000
 
 
 ## Admin Access
-Login to Admin Panel by visiting: www.yoursite.com/admin
+Login to Admin Panel by visiting: localhost:8000/login or if you've got a vhost set up then www.yoursite.com/login
 
 
 
