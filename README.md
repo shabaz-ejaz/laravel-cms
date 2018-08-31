@@ -11,6 +11,7 @@ This is a pre-packaged [Laravel](https://laravel.com/) 5.6.* project which uses 
 * [Grafite Builder for CRUD Scaffolding](https://github.com/GrafiteInc/Builder) 
 * [GraphQL](https://github.com/Folkloreatelier/laravel-graphql)
 * [Datatables](https://github.com/yajra/laravel-datatables)
+* [Laravel-Excel](https://github.com/Maatwebsite/Laravel-Excel)
 
 
 ## Requirements

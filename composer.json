@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "name": "shabaz-ejaz/laravel-cms",
+    "description": "A Laravel 5 CMS with CRUD scaffolding and API.",
+    "keywords": ["cms", "laravel"],
     "license": "MIT",
     "type": "project",
     "require": {
