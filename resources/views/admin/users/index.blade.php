@@ -25,10 +25,10 @@
                 {{ Form::label('id', 'ID') }}
                 {{ Form::number('id',  \Input::get('id'), array('class' => 'form-control', 'placeholder' => 'ID')) }}
             </div>
+
             <div class="col col-lg-2">
                 {{ Form::label('name', 'Name') }}
                 {{ Form::text('name',  \Input::get('name'), array('class' => 'form-control', 'placeholder' => 'Name')) }}
-
             </div>
 
             <div class="col col-lg-2">
@@ -38,35 +38,19 @@
 
 
             <div class="col col-lg-2">
-
                 <div class="form-group">
                     <label class="control-label" for="company">Company</label>
                     <select class="select2 form-control user-index" name="company">
-
                         @foreach($companies as $name => $id)
                             <option disabled selected value> -- select an option -- </option>
                             <option {{\Input::post('company') == $id ? 'selected' : '' }} value="{{ $id }}">{{ $name }}</option>
                         @endforeach
                     </select>
                 </div>
-
-
-                {{--<div class="form-group">
-                    <label for="company">Company</label>
-                    <select name="company" class="form-control" id="company">
-                        <option disabled selected value> -- select an option -- </option>
-                        @foreach($companies as $name => $id)
-                            <option {{\Input::post('company') == $id ? 'selected' : '' }} value="{{ $id }}">{{ $name }}</option>
-                        @endforeach
-                    </select>
-                </div>--}}
             </div>
 
             <div class="col col-lg-2">
                 {{ Form::label('', '') }}
-              {{--  {{ Form::label('active', 'Active') }}
-                {{ Form::checkbox('active', 'value') }}
---}}
                 <div class="form-check">
                     {{ Form::checkbox('active', 1, true) }}
                     <label class="form-check-label" for="active">
