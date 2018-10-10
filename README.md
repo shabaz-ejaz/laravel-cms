@@ -14,6 +14,7 @@ This is a pre-packaged [Laravel](https://laravel.com/) 5.6.* project which uses 
 * [Laravel-Excel](https://github.com/Maatwebsite/Laravel-Excel)
 * [Laravel Media Library](https://github.com/spatie/laravel-medialibrary)
 * [Laravel Passport API Authentication](https://laravel.com/docs/5.6/passport)
+* [Laravel Cashier for Stripe Billing](https://laravel.com/docs/5.6/billing)
 
 
 
