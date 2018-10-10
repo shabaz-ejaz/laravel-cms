@@ -16,6 +16,7 @@ This is a pre-packaged [Laravel](https://laravel.com/) 5.6.* project which uses 
 * [Laravel Passport API Authentication](https://laravel.com/docs/5.6/passport)
 
 
+
 ## Requirements
 
 - [Node](https://nodejs.org) 4.* or better
@@ -89,6 +90,11 @@ php artisan serve
 ```
 This will open up a Laravel development server at localhost:8000
 
+If you want to open multiple Laravel dev servers you can specify the port like this:
+
+```sh 
+php artisan serve --port=6060
+```
 
 ## Admin Access
 Login to Admin Panel by visiting: localhost:8000/login or if you've got a vhost set up then www.yoursite.com/login
@@ -131,6 +137,8 @@ Laravel configuration and app settings are cached in memory by default. You woul
 
 **Clear config cache and generate new cache file:**
 ``` php artisan config:cache ```
+
+If you are using ```php artisan serve``` to run your application then you'll need to restart it if you've made changes in any of the cached config files.
 
 ## Running Tests
 
