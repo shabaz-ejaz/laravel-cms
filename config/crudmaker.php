@@ -11,7 +11,7 @@
 
 return [
 
-    'template_source' => app()->basePath().'/resources/crudmaker',
+    'template_source' => app()->basePath().'/resources/overridecrudmaker',
 
     /*
     |--------------------------------------------------------------------------
